@@ -1,0 +1,142 @@
+body {
+  background-color: hsl(225, 100%, 94%);
+  font-family: "Inclusive Sans", sans-serif;
+}
+
+.box1 {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  width: 500px;
+  height: 500px;
+  margin-left: 200px;
+}
+
+.illustration {
+  width: 520px;
+  height: 250px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.box2 {
+  display: flex;
+  justify-content: center;
+  font-size: 39px;
+  font-weight: bolder;
+  padding-top: 25px;
+}
+
+.box3 {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  line-height: 25px;
+  font-size: 20px;
+  padding-top: 20px;
+  line-height: 30px;
+}
+
+.box4 {
+  display: flex;
+  justify-content: center;
+  margin-left: 20px;
+  flex-direction: column;
+  line-height: 10px;
+}
+
+.box7 {
+  display: flex;
+  justify-content: center;
+
+  padding-top: 30px;
+  color: rgba(83, 81, 81, 0.774);
+  font-weight: bolder;
+}
+
+.musicicon {
+  background-color: #f4f4f4fa;
+  width: 420px;
+  height: 90px;
+  margin-left: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+button {
+  justify-content: center;
+  height: 45px;
+  width: 430px;
+  align-self: center;
+  margin-left: 50px;
+  margin-top: 2px;
+  background-color: rgba(0, 0, 255, 0.822);
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 10px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.671);
+  cursor: pointer;
+}
+
+a {
+  margin-left: 60px;
+  color: blue;
+}
+
+.paragraph {
+  text-align: center;
+}
+
+.change {
+  color: gray;
+}
+
+.proceed {
+  padding-top: 45px;
+}
+
+h4 {
+}
+
+.change-the-color {
+  width: 522px;
+  height: 500px;
+  background-color: white;
+  margin-left: 330px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%; /* Adjust as needed */
+    margin: 0 auto;
+  }
+  .change-the-color {
+    width: 100%;
+    margin: 0;
+  }
+}
+
+/* Medium screens */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .container {
+    width: 80%; /* Adjust as needed */
+  }
+}
+
+/* Large screens */
+@media (min-width: 1025px) {
+  .container {
+    width: 70%; /* Adjust as needed */
+  }
+}
